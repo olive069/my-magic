@@ -1,0 +1,10 @@
+:host {
+
+    mat-nav-list {
+        overflow-x: hidden;
+        [mat-list-item] {
+            min-width: 10em;
+            ;
+        }
+    }
+}

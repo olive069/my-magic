@@ -1,0 +1,7 @@
+<mat-nav-list>
+    <h2 mat-subheader>Types</h2>
+    <mat-divider></mat-divider>
+    <a [routerLink]="['/cards',value]" mat-list-item [routerLinkActive]="'my-class-active'" *ngFor="let value of types">
+        <mat-icon>star_border</mat-icon> {{ value }}
+    </a>
+</mat-nav-list>

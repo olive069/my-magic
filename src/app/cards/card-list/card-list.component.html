@@ -1,0 +1,13 @@
+<my-magic-header [title]="type"></my-magic-header>
+
+<div fxLayout="row wrap" fxLayoutAlign="space-around">
+  <ng-container *ngFor="let value of cards">
+    <img [src]="value.imageUrl" *ngIf="value.imageUrl" 
+     [routerLink]="['/cards/',value.id]" 
+    fxFlex.xs="25" 
+    fxFlex.sm="25" 
+    fxFlex.md="20" 
+    fxFlex.lg="10"
+    fxFlex.xl="10" />
+  </ng-container>
+</div>

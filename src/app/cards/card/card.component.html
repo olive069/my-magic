@@ -1,0 +1,10 @@
+<my-magic-header [title]="id"></my-magic-header>
+<section fxLayoutAlign="center center" style="text-align:center">
+  <div fxFlex.xs="50" fxFlex.sm="25" fxFlex.md="25" fxFlex.lg="20" fxFlex.xl="10">
+    <h1>{{name}}</h1>
+    <img *ngIf="card && imageUrl" [src]="imageUrl" [routerLink]="['/cards/',type]" (load)="changeState()"
+      [@zoomEffect]=currentState />
+    <p>Type : {{type}}</p>
+    <p>Rareté : {{rarity}}</p>
+  </div>
+</section>
