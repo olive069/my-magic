@@ -1,27 +1,35 @@
-# MyMagic
+# My Magic
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+ ## First Angular app
 
-## Development server
+ Discovering Angular framework. Playing with components, modules and using services. 
+ Using routing modules.git add
+Using free API : Magic the Gathering.
+https://magicthegathering.io/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+App is desktop browser and Android compatible.
 
-## Code scaffolding
+ HTML5
+ CSS : Material design Framework
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+![palette](https://raw.githubusercontent.com/olive069/my-magic/master/res/Git%20Ressources/my-magic/api%20screenshot.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+___
+ ## Demo
 
-## Running unit tests
+### Browser version
+![palette](https://raw.githubusercontent.com/olive069/my-magic/master/res/Git%20Ressources/my-magic/screenshot1.jpg)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Mobile version
+![palette](https://raw.githubusercontent.com/olive069/my-magic/master/res/Git%20Ressources/my-magic/screenshot2.jpg)
 
-## Running end-to-end tests
+ 
+ ## Install
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ - Install Angular Framework
+ - ng serve
 
-## Further help
+## Demo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![palette](https://raw.githubusercontent.com/olive069/my-magic/master/res/Git%20Ressources/my-magic/my-magic-demo.gif)
